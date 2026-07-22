@@ -89,7 +89,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Jhon Deiby Mejias | Projects</title>
+        <title>Jhon Mejias | AI &amp; Data</title>
         <meta
           name="description"
           content="Explore projects by Jhon Deiby Mejias — AI & Data Analytics professional. Web applications built with React.js, JavaScript and modern technologies."

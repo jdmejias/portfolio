@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jhon Deiby Mejias | AI &amp; Data Analytics Portfolio</title>
+        <title>Jhon Mejias | AI &amp; Data</title>
         <meta
           name="description"
           content="Jhon Deiby Mejias - AI & Data Analytics professional. Python, SQL, AWS, Machine Learning. Systems Engineering & Business Administration student at Pontificia Universidad Javeriana Cali."

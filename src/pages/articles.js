@@ -127,7 +127,7 @@ export default function Articles() {
   return (
     <>
       <Head>
-        <title>Jhon Deiby Mejias | Articles Page</title>
+        <title>Jhon Mejias | AI &amp; Data</title>
         <meta name="description" content="Read articles and insights on Artificial Intelligence, Machine Learning, Data Analytics, and Cloud Computing by Jhon Deiby Mejias." />
       </Head>
       <TransitionEffect />
