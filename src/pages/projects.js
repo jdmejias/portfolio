@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import proj1 from "../../public/images/adsinfluencers.png";
 import proj2 from "../../public/images/origen.jpeg";
+import proj3 from "../../public/images/Saas.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -123,6 +124,16 @@ export default function Projects() {
                 summary="A project that connects investors with farmers in Colombia. Users can upload their videos, allowing direct connections and investments in local agricultural initiatives."
                 img={proj2}
                 link="https://www.deorigen.online/es"
+                github="https://github.com/jdmejias"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Featured Project – Local Commerce Application"
+                title="Sales Management System"
+                summary="A secure desktop application that streamlines WhatsApp Business order management. It automates data extraction into a local SQLite database and provides a real-time financial dashboard with exportable analytics."
+                img={proj3}
+                link="#"
                 github="https://github.com/jdmejias"
               />
             </div>
