@@ -8,6 +8,7 @@ import Link from "next/link";
 import proj1 from "../../public/images/adsinfluencers.png";
 import proj2 from "../../public/images/origen.jpeg";
 import proj3 from "../../public/images/Saas.png";
+import proj4 from "../../public/images/perfumes.jpeg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -135,6 +136,16 @@ export default function Projects() {
                 img={proj3}
                 link="#"
                 github="https://github.com/jdmejias"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Featured Project – E-commerce Platform"
+                title="Perfume Store"
+                summary="An elegant online perfume store built with modern web technologies. It provides a seamless e-commerce experience for discovering and purchasing premium fragrances, featuring a responsive and intuitive design."
+                img={proj4}
+                link="https://perfumes-app-three.vercel.app/"
+                github="https://github.com/jdmejias/perfumes-app"
               />
             </div>
           </div>
